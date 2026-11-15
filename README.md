@@ -22,7 +22,7 @@ Patches for Android apps, for use with [Morphe](https://morphe.software).
 | App | Version | Version code | What the patches do |
 |---|---|---|---|
 | **Memorize Pi Digits** | 11.01 | 11010 | No home-screen ads, no cross-promotion, no license block |
-| **Material Capsule** | 17.3 | 173 | Unlock Pro, no Firebase Analytics, no license block |
+| **Material Capsule** | 17.3 | 173 | Pro features, no Firebase Analytics, no license block |
 
 Both apps are `arm64-v8a` only and are patched from the original XAPK.
 All patches are enabled by default and only offered for the versions above.
@@ -34,7 +34,7 @@ All patches are enabled by default and only offered for the versions above.
 | **Remove home screen ads** | Memorize Pi Digits | on | Returns early from all four AdMob banner entry points, so no banner view is created and no ad request is sent. |
 | **Remove cross-promotion (Prime Button and game icons)** | Memorize Pi Digits | on | Disables the Prime Button and the six side-panel game icons inside the Unity scenes and scales them to zero. |
 | **Disable Firebase Analytics tracking** | Material Capsule | on | Sets the documented Firebase switches in the manifest and removes the advertising-ID and Privacy-Sandbox permissions. No DEX change. |
-| **Unlock Pro features** | Material Capsule | on | Makes the Pro entitlement always report active: gestures, widgets, card colours, full mode player and app search work without a purchase. |
+| **Unlock Pro features** | Material Capsule | on | Makes the Pro entitlement report active, so gestures, widgets, card colours, the full mode player and app search work. |
 | **Bypass PairIP license check** | both | on | Disables the Play PairIP check that would otherwise send a re-signed build back to the Play Store. Needed for a normal sideloaded install. |
 
 ## Install
