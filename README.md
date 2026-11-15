@@ -123,13 +123,13 @@ patched object bytes against a reference bundle.
 
 ## Releases
 
-The current release is **1.6.2**. GitHub is the primary source, GitLab is a
-mirror:
+The current release is **1.6.2**. GitHub is the only active source; the GitLab
+repository is **archived** and no longer updated:
 
 | | Download |
 |---|---|
-| GitHub | [releases/download/v1.6.2/patches-1.6.2.mpp](https://github.com/Jo-Patches/jo-patches/releases/download/v1.6.2/patches-1.6.2.mpp) |
-| GitLab | [gitlab.com/JoPatches/jo-patches](https://gitlab.com/JoPatches/jo-patches/-/releases/v1.6.2/downloads/patches-1.6.2.mpp) |
+| GitHub (active) | [releases/download/v1.6.2/patches-1.6.2.mpp](https://github.com/Jo-Patches/jo-patches/releases/download/v1.6.2/patches-1.6.2.mpp) |
+| GitLab (archived, v1.6.2 only) | [gitlab.com/JoPatches/jo-patches](https://gitlab.com/JoPatches/jo-patches/-/releases/v1.6.2/downloads/patches-1.6.2.mpp) |
 
 `patches-bundle.json` points at the release asset, `patches-list.json` is
 generated from the patch classes. Both are regenerated on every release - do
